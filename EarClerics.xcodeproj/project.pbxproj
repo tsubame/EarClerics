@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B88B143C1A18588D000C1D06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88B143B1A18588D000C1D06 /* AppDelegate.swift */; };
+		B88B143E1A18588D000C1D06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88B143D1A18588D000C1D06 /* ViewController.swift */; };
+		B88B14411A18588D000C1D06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88B143F1A18588D000C1D06 /* Main.storyboard */; };
+		B88B14431A18588D000C1D06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88B14421A18588D000C1D06 /* Images.xcassets */; };
+		B88B14461A18588D000C1D06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B88B14441A18588D000C1D06 /* LaunchScreen.xib */; };
+		B88B14521A18588E000C1D06 /* EarClericsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88B14511A18588E000C1D06 /* EarClericsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B88B144C1A18588E000C1D06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B88B142E1A18588D000C1D06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B88B14351A18588D000C1D06;
+			remoteInfo = EarClerics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B88B14361A18588D000C1D06 /* EarClerics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarClerics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88B143A1A18588D000C1D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B88B143B1A18588D000C1D06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B88B143D1A18588D000C1D06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B88B14401A18588D000C1D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B88B14421A18588D000C1D06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B88B14451A18588D000C1D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B88B144B1A18588E000C1D06 /* EarClericsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarClericsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88B14501A18588E000C1D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B88B14511A18588E000C1D06 /* EarClericsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarClericsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B88B14331A18588D000C1D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88B14481A18588E000C1D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B88B142D1A18588D000C1D06 = {
+			isa = PBXGroup;
+			children = (
+				B88B14381A18588D000C1D06 /* EarClerics */,
+				B88B144E1A18588E000C1D06 /* EarClericsTests */,
+				B88B14371A18588D000C1D06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B88B14371A18588D000C1D06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B88B14361A18588D000C1D06 /* EarClerics.app */,
+				B88B144B1A18588E000C1D06 /* EarClericsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B88B14381A18588D000C1D06 /* EarClerics */ = {
+			isa = PBXGroup;
+			children = (
+				B88B143B1A18588D000C1D06 /* AppDelegate.swift */,
+				B88B143D1A18588D000C1D06 /* ViewController.swift */,
+				B88B143F1A18588D000C1D06 /* Main.storyboard */,
+				B88B14421A18588D000C1D06 /* Images.xcassets */,
+				B88B14441A18588D000C1D06 /* LaunchScreen.xib */,
+				B88B14391A18588D000C1D06 /* Supporting Files */,
+			);
+			path = EarClerics;
+			sourceTree = "<group>";
+		};
+		B88B14391A18588D000C1D06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B88B143A1A18588D000C1D06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B88B144E1A18588E000C1D06 /* EarClericsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B88B14511A18588E000C1D06 /* EarClericsTests.swift */,
+				B88B144F1A18588E000C1D06 /* Supporting Files */,
+			);
+			path = EarClericsTests;
+			sourceTree = "<group>";
+		};
+		B88B144F1A18588E000C1D06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B88B14501A18588E000C1D06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B88B14351A18588D000C1D06 /* EarClerics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B88B14551A18588E000C1D06 /* Build configuration list for PBXNativeTarget "EarClerics" */;
+			buildPhases = (
+				B88B14321A18588D000C1D06 /* Sources */,
+				B88B14331A18588D000C1D06 /* Frameworks */,
+				B88B14341A18588D000C1D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarClerics;
+			productName = EarClerics;
+			productReference = B88B14361A18588D000C1D06 /* EarClerics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B88B144A1A18588E000C1D06 /* EarClericsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B88B14581A18588E000C1D06 /* Build configuration list for PBXNativeTarget "EarClericsTests" */;
+			buildPhases = (
+				B88B14471A18588E000C1D06 /* Sources */,
+				B88B14481A18588E000C1D06 /* Frameworks */,
+				B88B14491A18588E000C1D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B88B144D1A18588E000C1D06 /* PBXTargetDependency */,
+			);
+			name = EarClericsTests;
+			productName = EarClericsTests;
+			productReference = B88B144B1A18588E000C1D06 /* EarClericsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B88B142E1A18588D000C1D06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Tsubaki;
+				TargetAttributes = {
+					B88B14351A18588D000C1D06 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B88B144A1A18588E000C1D06 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B88B14351A18588D000C1D06;
+					};
+				};
+			};
+			buildConfigurationList = B88B14311A18588D000C1D06 /* Build configuration list for PBXProject "EarClerics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B88B142D1A18588D000C1D06;
+			productRefGroup = B88B14371A18588D000C1D06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B88B14351A18588D000C1D06 /* EarClerics */,
+				B88B144A1A18588E000C1D06 /* EarClericsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B88B14341A18588D000C1D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88B14411A18588D000C1D06 /* Main.storyboard in Resources */,
+				B88B14461A18588D000C1D06 /* LaunchScreen.xib in Resources */,
+				B88B14431A18588D000C1D06 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88B14491A18588E000C1D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B88B14321A18588D000C1D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88B143E1A18588D000C1D06 /* ViewController.swift in Sources */,
+				B88B143C1A18588D000C1D06 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88B14471A18588E000C1D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88B14521A18588E000C1D06 /* EarClericsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B88B144D1A18588E000C1D06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B88B14351A18588D000C1D06 /* EarClerics */;
+			targetProxy = B88B144C1A18588E000C1D06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B88B143F1A18588D000C1D06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B88B14401A18588D000C1D06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B88B14441A18588D000C1D06 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B88B14451A18588D000C1D06 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B88B14531A18588E000C1D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B88B14541A18588E000C1D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B88B14561A18588E000C1D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EarClerics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B88B14571A18588E000C1D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EarClerics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B88B14591A18588E000C1D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EarClericsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarClerics.app/EarClerics";
+			};
+			name = Debug;
+		};
+		B88B145A1A18588E000C1D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EarClericsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarClerics.app/EarClerics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B88B14311A18588D000C1D06 /* Build configuration list for PBXProject "EarClerics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88B14531A18588E000C1D06 /* Debug */,
+				B88B14541A18588E000C1D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B88B14551A18588E000C1D06 /* Build configuration list for PBXNativeTarget "EarClerics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88B14561A18588E000C1D06 /* Debug */,
+				B88B14571A18588E000C1D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B88B14581A18588E000C1D06 /* Build configuration list for PBXNativeTarget "EarClericsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88B14591A18588E000C1D06 /* Debug */,
+				B88B145A1A18588E000C1D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B88B142E1A18588D000C1D06 /* Project object */;
+}
