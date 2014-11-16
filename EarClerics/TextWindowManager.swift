@@ -94,7 +94,7 @@ class TextWindowManager: NSObject {
         label.frame = CGRectMake(pos.x, pos.y, 9999, 9999)
         label.text = text
         label.font = font
-        label.textAlignment = NSTextAlignment.Left
+        label.textAlignment = NSTextAlignment.Center
         label.lineBreakMode = NSLineBreakMode.ByWordWrapping
         label.numberOfLines = 0
         label.sizeToFit()
@@ -142,7 +142,7 @@ class TextWindowManager: NSObject {
     
     func clearLabelsText(labels: Array<UILabel>) {
         for (index, label) in enumerate(labels) {
-            label.text = "　"
+            label.text = ""
         }
     }
     
@@ -170,6 +170,14 @@ class TextWindowManager: NSObject {
     
     func setWindowY(y: Int) {
         _windowY = y
+    }
+    
+    func setCharCountInLine(count: Int) {
+        _charCountInLine = count
+    }
+
+    func setLineCount(count: Int) {
+        _lineCount = count
     }
     
     func isMessageEnded() -> Bool {

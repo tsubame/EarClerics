@@ -25,13 +25,14 @@ class TextTestViewController: UIViewController {
     
     //var _isMessageEnded = true
     
-    var _chars = [Character]()
+    //var _chars = [Character]()
     
     var _twm = TextWindowManager()
 
     
     @IBAction func _showTextButtonClicked(sender: AnyObject) {
         if _twm._isMessageEnded {
+            _charLabels[0].text = ""
             showNextMessage()
         }
     }
@@ -60,12 +61,18 @@ class TextTestViewController: UIViewController {
         _twm = TextWindowManager()
         _twm.setWindowX(30)
         _twm.setWindowY(200)
-        
+        _twm.setLineCount(5)
+        _twm.setCharCountInLine(15)
+
         _charLabels = _twm.makeCharLabels()
         
         for label in _charLabels {
             self.view.addSubview(label)
         }
+        
+        var screenSize: CGRect = UIScreen.mainScreen().bounds
+        println("解像度は\(screenSize)")
+        //CGRect screenSize = [[UIScreen mainScreen] bounds]
     }
     
     
