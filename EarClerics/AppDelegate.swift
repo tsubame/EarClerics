@@ -7,15 +7,79 @@
 //
 
 import UIKit
+import AVFoundation
+import CoreLocation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    // 天気取得クラス
+    var _weatherGetter: WeatherGetter?
+    // 時間監視用クラス
+    var _timeMonitor: TimeMonitor?
+    // オーディオセッション
+    var _audioSession: AVAudioSession = AVAudioSession.sharedInstance()
 
+    
+    
+    // 通知センターの使用許可を取得　iOSのバージョンで分岐
+    func registerNotifSetting(application: UIApplication) {
+        // Load resources for iOS 7.0 or earlier
+        if floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_7_1 {
+            application.registerForRemoteNotificationTypes(UIRemoteNotificationType.Sound | UIRemoteNotificationType.Alert | UIRemoteNotificationType.Badge)
+        // Load resources for iOS 8 or later
+        } else {
+            application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: UIUserNotificationType.Sound | UIUserNotificationType.Alert | UIUserNotificationType.Badge, categories: nil))
+        }
+    }
+    
+    // 初期データをNSUserDefaultsに登録
+    func registerInitialData() {
+        var pref = NSUserDefaults.standardUserDefaults()
+        //　選択中のキャラクター
+        var selectedChara: String? = pref.stringForKey("selectedChara")
+        if selectedChara == nil {
+            selectedChara = DEFAULT_CHARACTER
+            println("選択キャラがありません。初期データとして \(selectedChara) を登録します")
+            pref.setObject(selectedChara, forKey: "selectedChara")
+            pref.synchronize()
+        }
+        // 位置情報がなければ取得
+        var latitude : String? = pref.stringForKey("latitude")
+        var longitude: String? = pref.stringForKey("longitude")
+        if latitude == nil {
+            println("位置情報が登録されていません")
+            NSNotificationCenter.defaultCenter().postNotificationName("startUpdateLocation", object: nil)
+        }
+    }
+    
+    //===========================================================
+    // UIApplicationDelegate
+    //===========================================================
+    
+    // 起動時に実行
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        // 通知センターの使用準備
+        registerNotifSetting(application)
+        
+        // バックグラウンドで音楽を再生する準備
+        _audioSession = AVAudioSession.sharedInstance()
+        _audioSession.setCategory(AVAudioSessionCategoryPlayback, withOptions: AVAudioSessionCategoryOptions.MixWithOthers, error: nil)
+        //NSNotificationCenter.defaultCenter().addObserver(self, selector: "sessionDidInterrupt:", name: "AVAudioSessionInterruptionNotification", object: nil)
+        
+        // インスタンス作成
+        
+        //_ringtonePlayer    = RingtonePlayer()
+        //_morningcallPlayer = MorningCallPlayer()
+        //_locationGetter    = LocationGetter()
+        _weatherGetter       = WeatherGetter()
+        _timeMonitor         = TimeMonitor()
+        
+        // 初期データの作成
+        registerInitialData()
+        
         return true
     }
 
@@ -25,8 +89,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidEnterBackground(application: UIApplication) {
-        // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-        // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        println("バックグラウンドになりました")
     }
 
     func applicationWillEnterForeground(application: UIApplication) {

@@ -13,6 +13,24 @@
 		B88B14431A18588D000C1D06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88B14421A18588D000C1D06 /* Images.xcassets */; };
 		B88B14461A18588D000C1D06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B88B14441A18588D000C1D06 /* LaunchScreen.xib */; };
 		B88B14521A18588E000C1D06 /* EarClericsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88B14511A18588E000C1D06 /* EarClericsTests.swift */; };
+		B88B14611A1858E3000C1D06 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88B14601A1858E3000C1D06 /* SwiftyJSON.swift */; };
+		B88B14651A185902000C1D06 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B88B14641A185902000C1D06 /* TTTAttributedLabel.m */; };
+		B88B14691A185927000C1D06 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88B14681A185927000C1D06 /* Constants.swift */; };
+		B88B146E1A185A77000C1D06 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88B146D1A185A77000C1D06 /* AudioToolbox.framework */; };
+		B88B14701A185A7E000C1D06 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88B146F1A185A7E000C1D06 /* CoreLocation.framework */; };
+		B88B147A1A185BB1000C1D06 /* TimeMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88B14751A185BB1000C1D06 /* TimeMonitor.swift */; };
+		B88B147B1A185BB1000C1D06 /* MorningCallPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88B14761A185BB1000C1D06 /* MorningCallPlayer.swift */; };
+		B88B147C1A185BB1000C1D06 /* RingtonePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88B14771A185BB1000C1D06 /* RingtonePlayer.swift */; };
+		B88B147D1A185BB1000C1D06 /* WeatherGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88B14781A185BB1000C1D06 /* WeatherGetter.swift */; };
+		B88B147E1A185BB1000C1D06 /* LocationGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88B14791A185BB1000C1D06 /* LocationGetter.swift */; };
+		B88B14811A185BEB000C1D06 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88B14801A185BEB000C1D06 /* SoundPlayer.swift */; };
+		B88B14851A185DA8000C1D06 /* バイブ音.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B88B14841A185DA8000C1D06 /* バイブ音.mp3 */; };
+		B88B14871A185E64000C1D06 /* 無音.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B88B14861A185E64000C1D06 /* 無音.mp3 */; };
+		B88B148B1A186154000C1D06 /* 風鈴.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B88B148A1A186154000C1D06 /* 風鈴.mp3 */; };
+		B88B148D1A18620E000C1D06 /* TextWindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88B148C1A18620E000C1D06 /* TextWindowManager.swift */; };
+		B88B148F1A1868B2000C1D06 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88B148E1A1868B2000C1D06 /* HomeViewController.swift */; };
+		B88B14911A1868C1000C1D06 /* TextTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88B14901A1868C1000C1D06 /* TextTestViewController.swift */; };
+		B88B14931A1869C9000C1D06 /* T.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88B14921A1869C9000C1D06 /* T.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +54,27 @@
 		B88B144B1A18588E000C1D06 /* EarClericsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarClericsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B88B14501A18588E000C1D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B88B14511A18588E000C1D06 /* EarClericsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarClericsTests.swift; sourceTree = "<group>"; };
+		B88B14601A1858E3000C1D06 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		B88B14631A185902000C1D06 /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		B88B14641A185902000C1D06 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
+		B88B14681A185927000C1D06 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B88B146C1A185A29000C1D06 /* EarClerics.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = EarClerics.entitlements; sourceTree = "<group>"; };
+		B88B146D1A185A77000C1D06 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B88B146F1A185A7E000C1D06 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B88B14741A185ADF000C1D06 /* EarClerics-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EarClerics-Bridging-Header.h"; sourceTree = "<group>"; };
+		B88B14751A185BB1000C1D06 /* TimeMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeMonitor.swift; sourceTree = "<group>"; };
+		B88B14761A185BB1000C1D06 /* MorningCallPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorningCallPlayer.swift; sourceTree = "<group>"; };
+		B88B14771A185BB1000C1D06 /* RingtonePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingtonePlayer.swift; sourceTree = "<group>"; };
+		B88B14781A185BB1000C1D06 /* WeatherGetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherGetter.swift; sourceTree = "<group>"; };
+		B88B14791A185BB1000C1D06 /* LocationGetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationGetter.swift; sourceTree = "<group>"; };
+		B88B14801A185BEB000C1D06 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		B88B14841A185DA8000C1D06 /* バイブ音.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "バイブ音.mp3"; sourceTree = "<group>"; };
+		B88B14861A185E64000C1D06 /* 無音.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "無音.mp3"; sourceTree = "<group>"; };
+		B88B148A1A186154000C1D06 /* 風鈴.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "風鈴.mp3"; sourceTree = "<group>"; };
+		B88B148C1A18620E000C1D06 /* TextWindowManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextWindowManager.swift; sourceTree = "<group>"; };
+		B88B148E1A1868B2000C1D06 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B88B14901A1868C1000C1D06 /* TextTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTestViewController.swift; sourceTree = "<group>"; };
+		B88B14921A1869C9000C1D06 /* T.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = T.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B88B14701A185A7E000C1D06 /* CoreLocation.framework in Frameworks */,
+				B88B146E1A185A77000C1D06 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +100,9 @@
 		B88B142D1A18588D000C1D06 = {
 			isa = PBXGroup;
 			children = (
+				B88B14741A185ADF000C1D06 /* EarClerics-Bridging-Header.h */,
+				B88B146F1A185A7E000C1D06 /* CoreLocation.framework */,
+				B88B146D1A185A77000C1D06 /* AudioToolbox.framework */,
 				B88B14381A18588D000C1D06 /* EarClerics */,
 				B88B144E1A18588E000C1D06 /* EarClericsTests */,
 				B88B14371A18588D000C1D06 /* Products */,
@@ -77,10 +121,15 @@
 		B88B14381A18588D000C1D06 /* EarClerics */ = {
 			isa = PBXGroup;
 			children = (
+				B88B146C1A185A29000C1D06 /* EarClerics.entitlements */,
+				B88B14661A18590F000C1D06 /* Controller */,
+				B88B14671A185914000C1D06 /* Model */,
+				B88B145F1A1858CC000C1D06 /* Vendor */,
 				B88B143B1A18588D000C1D06 /* AppDelegate.swift */,
 				B88B143D1A18588D000C1D06 /* ViewController.swift */,
 				B88B143F1A18588D000C1D06 /* Main.storyboard */,
 				B88B14421A18588D000C1D06 /* Images.xcassets */,
+				B88B14681A185927000C1D06 /* Constants.swift */,
 				B88B14441A18588D000C1D06 /* LaunchScreen.xib */,
 				B88B14391A18588D000C1D06 /* Supporting Files */,
 			);
@@ -90,6 +139,10 @@
 		B88B14391A18588D000C1D06 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B88B145E1A1858B6000C1D06 /* music */,
+				B88B145D1A1858B1000C1D06 /* se */,
+				B88B145C1A1858AC000C1D06 /* voice */,
+				B88B145B1A1858A6000C1D06 /* image */,
 				B88B143A1A18588D000C1D06 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +163,87 @@
 				B88B14501A18588E000C1D06 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B88B145B1A1858A6000C1D06 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		B88B145C1A1858AC000C1D06 /* voice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = voice;
+			sourceTree = "<group>";
+		};
+		B88B145D1A1858B1000C1D06 /* se */ = {
+			isa = PBXGroup;
+			children = (
+				B88B148A1A186154000C1D06 /* 風鈴.mp3 */,
+				B88B14861A185E64000C1D06 /* 無音.mp3 */,
+				B88B14841A185DA8000C1D06 /* バイブ音.mp3 */,
+			);
+			name = se;
+			sourceTree = "<group>";
+		};
+		B88B145E1A1858B6000C1D06 /* music */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = music;
+			sourceTree = "<group>";
+		};
+		B88B145F1A1858CC000C1D06 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				B88B14621A185902000C1D06 /* TTTAttributedLabel */,
+				B88B14601A1858E3000C1D06 /* SwiftyJSON.swift */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		B88B14621A185902000C1D06 /* TTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				B88B14631A185902000C1D06 /* TTTAttributedLabel.h */,
+				B88B14641A185902000C1D06 /* TTTAttributedLabel.m */,
+			);
+			path = TTTAttributedLabel;
+			sourceTree = "<group>";
+		};
+		B88B14661A18590F000C1D06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B88B148E1A1868B2000C1D06 /* HomeViewController.swift */,
+				B88B14901A1868C1000C1D06 /* TextTestViewController.swift */,
+				B88B14921A1869C9000C1D06 /* T.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B88B14671A185914000C1D06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B88B147F1A185BE0000C1D06 /* Lib */,
+				B88B14751A185BB1000C1D06 /* TimeMonitor.swift */,
+				B88B14761A185BB1000C1D06 /* MorningCallPlayer.swift */,
+				B88B14771A185BB1000C1D06 /* RingtonePlayer.swift */,
+				B88B14781A185BB1000C1D06 /* WeatherGetter.swift */,
+				B88B14791A185BB1000C1D06 /* LocationGetter.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B88B147F1A185BE0000C1D06 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B88B14801A185BEB000C1D06 /* SoundPlayer.swift */,
+				B88B148C1A18620E000C1D06 /* TextWindowManager.swift */,
+			);
+			name = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +295,15 @@
 				TargetAttributes = {
 					B88B14351A18588D000C1D06 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = AXM98ZS3RD;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
 					};
 					B88B144A1A18588E000C1D06 = {
 						CreatedOnToolsVersion = 6.1;
@@ -193,7 +336,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B88B14411A18588D000C1D06 /* Main.storyboard in Resources */,
+				B88B14851A185DA8000C1D06 /* バイブ音.mp3 in Resources */,
+				B88B14871A185E64000C1D06 /* 無音.mp3 in Resources */,
 				B88B14461A18588D000C1D06 /* LaunchScreen.xib in Resources */,
+				B88B148B1A186154000C1D06 /* 風鈴.mp3 in Resources */,
 				B88B14431A18588D000C1D06 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +358,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B88B14931A1869C9000C1D06 /* T.swift in Sources */,
+				B88B14691A185927000C1D06 /* Constants.swift in Sources */,
+				B88B147B1A185BB1000C1D06 /* MorningCallPlayer.swift in Sources */,
+				B88B14811A185BEB000C1D06 /* SoundPlayer.swift in Sources */,
+				B88B147C1A185BB1000C1D06 /* RingtonePlayer.swift in Sources */,
+				B88B147A1A185BB1000C1D06 /* TimeMonitor.swift in Sources */,
+				B88B148D1A18620E000C1D06 /* TextWindowManager.swift in Sources */,
+				B88B14611A1858E3000C1D06 /* SwiftyJSON.swift in Sources */,
 				B88B143E1A18588D000C1D06 /* ViewController.swift in Sources */,
 				B88B143C1A18588D000C1D06 /* AppDelegate.swift in Sources */,
+				B88B147E1A185BB1000C1D06 /* LocationGetter.swift in Sources */,
+				B88B147D1A185BB1000C1D06 /* WeatherGetter.swift in Sources */,
+				B88B148F1A1868B2000C1D06 /* HomeViewController.swift in Sources */,
+				B88B14651A185902000C1D06 /* TTTAttributedLabel.m in Sources */,
+				B88B14911A1868C1000C1D06 /* TextTestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +495,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = EarClerics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/hideki/Documents/workspace/Xcode/EarClerics/EarClerics-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -346,9 +511,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = EarClerics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/hideki/Documents/workspace/Xcode/EarClerics/EarClerics-Bridging-Header.h";
 			};
 			name = Release;
 		};
